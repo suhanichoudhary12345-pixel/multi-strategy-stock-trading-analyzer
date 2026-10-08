@@ -19,7 +19,6 @@ The objective is not to predict the market, but to evaluate whether commonly use
 
 ## Project Pipeline
 
-```text
 Historical Market Data
         ↓
 Data Cleaning & Returns
