@@ -197,20 +197,20 @@ Technologies Used
 - Jupyter Notebook
 
 Installation :
-Clone the repository
-Create a virtual environment
-Activate it on windows
-Install dependencies
+-Clone the repository
+-Create a virtual environment
+-Activate it on windows
+-Install dependencies
 
 Running the Project:
 -Open Jupyter notebook then open notebooks/01_multi_strategy_analyer.ipynb and run the notebook from top to bottom.
 
-Reproducibility
-Historical market data is downloaded programmatically using yfinance.
-The repository does not require the local Python virtual environment or downloaded raw market data to be committed to Git.
-Running the notebook downloads the required historical data again.
+Reproducibility :
+-Historical market data is downloaded programmatically using yfinance.
+-The repository does not require the local Python virtual environment or downloaded raw market data to be committed to Git.
+-Running the notebook downloads the required historical data again.
 
-Limitations
+Limitations :
 This project is a historical backtesting and statistical-analysis exercise and should not be interpreted as investment advice.
 Important limitations include:
 - Transaction costs and slippage are not modeled.
@@ -220,6 +220,6 @@ Important limitations include:
 - Market regime observations are descriptive and do not establish causality.
 - The statistical tests should be interpreted within their underlying assumptions and the time-series nature of financial returns.
 
-Conclusion
-The analysis demonstrates that technical trading strategy performance can vary considerably across markets and that Bear regimes were consistently associated with higher volatility across the four indices studied.
-The statistical tests did not provide evidence of significant differences in mean daily returns between Bull and Bear regimes, suggesting that the most robust regime-related pattern in this analysis was increased risk rather than a systematic difference in average return.
+Conclusion :
+-The analysis demonstrates that technical trading strategy performance can vary considerably across markets and that Bear regimes were consistently associated with higher volatility across the four indices studied.
+-The statistical tests did not provide evidence of significant differences in mean daily returns between Bull and Bear regimes, suggesting that the most robust regime-related pattern in this analysis was increased risk rather than a systematic difference in average return.
